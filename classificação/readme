@@ -1,0 +1,29 @@
+# 🧠 Projeto de Classificação com Inteligência Artificial
+
+Este projeto tem como objetivo aplicar algoritmos de Inteligência Artificial para resolver problemas de **classificação supervisionada**, utilizando diferentes técnicas de pré-processamento, modelagem e avaliação.
+
+## 📌 Objetivo
+
+Classificar instâncias de um dataset em categorias previamente definidas (classes), com base em atributos/variáveis de entrada. Exemplos de aplicações incluem:
+
+- Diagnóstico médico (doente / saudável)
+- Detecção de fraudes (fraude / legítimo)
+- Classificação de sentimentos (positivo / negativo)
+
+## 🧪 Técnicas Utilizadas
+
+- **Pré-processamento de Dados**
+  - Limpeza de dados
+  - Normalização / Padronização
+  - Codificação de variáveis categóricas
+- **Modelos de Classificação**
+  - Regressão Logística
+  - K-Nearest Neighbors (KNN)
+  - Decision Tree
+  - Random Forest
+  - Support Vector Machine (SVM)
+
+- **Avaliação de Modelos**
+  - Acurácia
+  - Precisão, Recall e F1-score
+  - Curva ROC e AUC
