@@ -19,9 +19,9 @@ Ou seja, descobrir que, por exemplo, clientes que compram **A** e **B** também 
 
 Indica com que frequência um conjunto de itens aparece no banco de dados.
 
-\[
+$$
 \text{Support}(A \rightarrow B) = \frac{\text{Número de transações contendo } A \cup B}{\text{Número total de transações}}
-\]
+$$
 
 ---
 
@@ -29,9 +29,9 @@ Indica com que frequência um conjunto de itens aparece no banco de dados.
 
 Mede a probabilidade de encontrar o item **B** em transações que já contêm o item **A**.
 
-\[
+$$
 \text{Confidence}(A \rightarrow B) = \frac{\text{Support}(A \cup B)}{\text{Support}(A)}
-\]
+$$
 
 ---
 
@@ -39,9 +39,10 @@ Mede a probabilidade de encontrar o item **B** em transações que já contêm o
 
 Mede o quanto **A** e **B** ocorrem juntos mais frequentemente do que seria esperado se fossem estatisticamente independentes.
 
-\[
+$$
 \text{Lift}(A \rightarrow B) = \frac{\text{Confidence}(A \rightarrow B)}{\text{Support}(B)}
-\]
+$$
+
 
 - **Lift > 1**: associação positiva (B é mais provável dado A)
 - **Lift = 1**: independência
