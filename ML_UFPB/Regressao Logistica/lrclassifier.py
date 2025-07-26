@@ -1,4 +1,4 @@
-from linearregression import LinearRegression
+from ..Pratica_RL import LinearRegression
 import numpy
 #from pocketpla import PocketPLA
 
